@@ -1,0 +1,33 @@
+.contact-container {
+  max-width: 50rem; 
+  margin: 0 auto;
+  padding: 1.25rem; 
+}
+
+.contact-info {
+  margin-bottom: 1.25rem; 
+}
+
+.contact-form {
+  display: grid;
+  grid-gap: 0.625rem; 
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  padding: 0.625rem; 
+  border: 0.0625rem solid #ccc; 
+  border-radius: 0.3125rem; 
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+h1 {
+  font-size: 2.2rem; 
+  line-height: 1.1;
+}

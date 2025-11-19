@@ -1,0 +1,62 @@
+.popular-tours-container {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+.tour-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1.25rem; 
+}
+
+.form-container {
+  margin-top: 1.25rem; 
+}
+
+.form-container div {
+  margin-bottom: 0.625rem;
+}
+
+.form-container label {
+  font-weight: bold;
+}
+
+.form-container select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid #ccc;
+}
+
+.form-container button {
+  display: block;
+  width: 100%;
+  padding: 0.625rem;
+  margin-top: 0.625rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  margin-top: 1.25rem; 
+}
+
+.success-message button {
+  margin-top: 0.625rem; 
+}
+
+
+@media (max-width: 48rem) {
+  .form-container button {
+    margin-top: 0.625rem;
+  }
+}

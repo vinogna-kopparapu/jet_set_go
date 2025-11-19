@@ -1,0 +1,19 @@
+.skip-link {
+    position: absolute;
+    top: -2.5rem; 
+    left: 0;
+    background-color: #007bff;
+    color: white;
+    padding: 0.625rem; 
+    z-index: 1000;
+    transition: top 0.3s ease;
+  }
+  
+  .skip-link.visible {
+    top: 0; 
+  }
+  
+  .skip-link.hidden {
+    display: none;
+  }
+  

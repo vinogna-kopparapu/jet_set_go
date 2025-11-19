@@ -1,0 +1,42 @@
+.about-us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.25rem; 
+}
+
+.about-us-text {
+  flex: 1;
+  padding-right: 0.625rem; 
+}
+
+.about-us-image {
+  flex: 1;
+}
+
+.about-us-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 48rem) { 
+  .about-us-container {
+      flex-direction: column;
+  }
+
+  .about-us-text {
+      padding: 0 1.25rem; 
+      text-align: center;
+  }
+
+  .about-us-image {
+      margin-bottom: 1.25rem; 
+  }
+
+  .about-us-image img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+  }
+}

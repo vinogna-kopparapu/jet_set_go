@@ -1,0 +1,10 @@
+/* Navigation.css */
+
+.navigation {
+    display: none; /* Hide by default */
+  }
+  
+  .navigation.open {
+    display: block; /* Show when open class is present */
+  }
+  
